@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="bvelozs2t1.Vistas.Registro"
+             Title="Registro">
+    <VerticalStackLayout>
+        <Label 
+            Text="Registro de usuarios"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Entry x:Name="txtUsuario" Placeholder="Usuario"></Entry>
+        <Entry x:Name="txtClave" Placeholder="Clave" IsPassword="True"></Entry>
+        <Button x:Name="btnregistrar" Text="Registrar" Clicked="btnregistrar_Clicked"></Button>
+    </VerticalStackLayout>
+</ContentPage>
